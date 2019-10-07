@@ -167,9 +167,10 @@
         var ctx = canvas.getContext("2d");
         var img = new Image();
         img.src = "ksuisbg.gif";
-        img.onload = function(){
-            ctx.drawImage(img,0,0,300,300); 
-            };
+        img.onload = function(){ctx.drawImage(img,0,0,300,300);  };
+        var audio = new Audio();
+        audio.src = "pin.wav";
+        audio.play();
         
     }
     
