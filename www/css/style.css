@@ -44,6 +44,7 @@
         position:absolute; top:380px; left:2%; width:43%; height:60px; 
         background-color: rgb(255, 255, 0);
         color: green;
+        font-weight: bold;
     }
     
     #btnB {
